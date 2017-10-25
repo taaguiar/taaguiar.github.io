@@ -1,0 +1,71 @@
+body {
+  font-family: "Jaldi", helvetica, sans-serif;
+  background-image: url("https://res.cloudinary.com/jkeohan/image/upload/v1465860054/GAbg_faded_aatkni.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+
+  background-color: #F1F1F1;
+  margin: 10px;
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+main {
+  max-width:800px;
+  margin: auto;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+h1{
+  font-size:48px;
+  line-height: 48px;
+  text-align: left;
+  top-margin: 10px;
+}
+
+h4 {
+  color: #FF4136;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding-left: 0;
+}
+
+li {
+  display: inline;
+  padding: 15px; 
+}
+
+li:hover {
+  color: red;
+}
+
+.intro {
+  margin-top: 20px;
+}
+
+.locations {
+  max-width: 550px;
+  margin: auto;
+  padding: 5px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.more-info {
+  text-align: center;
+  font-size: 18px;
+  padding-top: 24px;
+  border-top: 1px dotted #cccccc;
+}
+
+.bold {
+  font-weight: bold;
+}

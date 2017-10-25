@@ -1,0 +1,39 @@
+body {
+  margin: 10px; 
+}
+
+h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+h2{
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 10px 20px 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: -4px;
+}
+
+ul {
+  columns: 3;
+  list-style-type: none;
+  text-align: center;
+  width: 50%;
+  margin: 20px auto;
+  padding-left: 0;
+}
+
+.top-bar {
+  background-color: #000000;
+}
+
+.hero {
+  width: 100%;
+}
+
+.content {
+  max-width: 1200px;
+}

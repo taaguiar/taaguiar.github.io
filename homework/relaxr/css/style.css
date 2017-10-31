@@ -1,7 +1,7 @@
 /*
 Project Name: Blank Template
-Client: Your Client
-Author: Your Name
+Client: Your ClientYour Name
+Author: Toni Aguiar
 Developer @GA in NYC
 */
 
@@ -17,30 +17,6 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
-
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -49,11 +25,22 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', Arial, sans-serif;
+     margin: 0;
 }
 
+
+h1 {
+  margin-top: 60px;
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+}
+
+main {
+  margin: 0;
+}
 
 /******************************************
 /* LAYOUT
@@ -68,7 +55,15 @@ body {
 }
 
 header {
-
+  background: url("http://res.cloudinary.com/jkeohan/image/upload/v1509050166/header_bg_f5pvpn.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+  margin-top: 0; 
+  padding-top: 30px;
+  margin: 0 auto;
 }
 
 footer {
@@ -80,5 +75,151 @@ footer {
 /*******************************************/
 
 
+h1.logo{
+  font-weight: 800;
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+h2{
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h3{
+  margin: 0;
+  font-size: 18px;
+  font-weight: 100;
+  font-style: italic;
+  text-align: center;
+  line-height: 1.5;
+}
+
+ul {
+  margin: 0;
+  max-width: 280px;
+  color: #606161;
+  padding-top: 15px;
+  font-weight: 100;
+  font-size: 13px;
+}
+
+li {
+  list-style-position: inside;
+  line-height: 1.5;
+  margin-left: -10px;
+}
+
+.valueprops{
+    max-width: 400px;
+  padding: 45px 30px;
+  font-weight: 100;
+  margin: 0;
+}
+
+div.value-container{
+  background: #f0efef;
+}
+
+input[type="button"] {
+  text-align: center;
+  border: none;
+  padding: 12px 40px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 5px; 
+  display: block;
+  margin: 0 auto;
+}
+
+input.navy[type="button"] {
+  background-color: #033048;
+  color: white;
+}
+
+input.navy[type="button"]:hover{
+  background-color: white;
+  color: #033048;
+  transition: all 0.4s ease 0s;
+}
+
+input.yellow[type="button"] {
+  background-color: #f9e42e;
+  color: #033048;
+  margin-top: 60px;
+  font-size: 14px;
+}
+
+input.yellow[type="button"]:hover{
+  color: #f9e42e;
+  background-color: #033048;
+  transition: all 0.4s ease 0s;
+}
 
 
+#yellow-logo {
+  color: #f9e42e;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+}
+
+.quote {
+  color: white;
+  margin: 0 auto;
+  max-width: 400px;
+  display: block;
+}
+
+.quote-container {
+  background: url("http://res.cloudinary.com/jkeohan/image/upload/v1509050227/testimonial_bg_rd59w7.jpg");
+  height: 100%;
+  padding: 60px 0;
+}
+
+.social {
+  background-color: #121212;
+  text-align: center;
+}
+
+footer {
+  background-color: #121212;
+  text-align: center;
+  padding: 30px;
+  margin-top: 0;
+}
+
+p.footer {
+  color: white;
+  margin: 0;
+  font-size: 9px;
+}
+
+h3.source {
+  font-weight: 500;
+  font-style: normal;
+}
+
+.cta {
+  background-color: #f9e42e;
+  display: block;
+  padding: 15px;
+}
+
+.social-icon {
+  height: 20px;
+  padding: 0 10px;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+.social-icon:hover {
+  top: -10px;
+}
+
+p.grey{
+   color: #606161;
+}

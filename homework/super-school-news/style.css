@@ -1,4 +1,89 @@
-.container {
+*{
+  box-sizing: border-box;  
+}
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  background-color: yellow;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+nav > a {
+  display: inline-block;
+  padding: 17px 15px 17px 15px;
+}
+
+nav {
+  float: right;
+  margin-right: 15px;
+}
+
+header > h1 {
+  display: inline-block;
+  font-weight: 100;
+  margin: 10px 30px;
+}
+
+article {
+  width: 50%;
+  float: left;
+  border: 10px solid;
+  padding: 20px;
+}
+
+article > h1 {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 0;
+}
+
+article + article {
+  border-left: none;
+}
+
+a:hover{
+  background-color: black;
+  color: yellow;
+}
+
+@media screen and (max-width: 400px) {
+  article {
+    width: 100%;
+    float: none;
+    
+  }
+  
+  article + article {
+    border-top: none;
+    border-left: 10px solid;
+  }
+  
+  nav{
+    float: none;
+    text-align: center;
+  }
+  
+  header h1 {
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+  }
+}
+
+
+
+/* .container {
 	width: 960px;
 	margin: 0 auto;
 }
@@ -34,7 +119,7 @@ article {
 	background-color: white;
 }
 
-/* targets the 1st article; nth-child(2) would target the 2nd article*/
+/* targets the 1st article; nth-child(2) would target the 2nd article
 article:nth-child(1) {
 	margin-right: 10px;
 }
@@ -44,3 +129,5 @@ article h1 {
 	text-align: center;
 	padding: 5px 0;
 }
+
+*/

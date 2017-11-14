@@ -12,6 +12,11 @@ Use this section to describe your final project and perhaps any links to relevan
 | https://welcometotheuniverse.net/#our-place-in-the-universe | animated SVG's, scrolljacking (as opposed to scroll x amount to next event)  |   
 | http://johnpolacek.github.io/superscrollorama/ | not inspiration per se but a jquery plugin for scrolling |
 | http://inception-explained.com/ | text appears/disappears based on scroll |
+| https://hackernoon.com/everything-you-need-to-know-about-bitcoins-timeline-in-4-minutes-244a412b9455 | content for site |
+| https://www.aldaevents.com/our-story/ | text scrolls in/out, line animation |
+| https://avocode.com/design-report-2016/ | scrollspy, buttons to advance/go back |
+| https://int.pez.com/Geschichte/ | combo of static illustration and objects that scroll on move |
+
 
 ## Wireframes
 
@@ -45,6 +50,7 @@ Include the full list of features that you will implement as part of your site's
 - animated SVGs
 - nav bar with links to my squarespace, gemini.com, and a link to open....
 - whole page "about" 
+- scrollspy (overview of timeline + gives user info as to where they are in the timeline)
 
 
 

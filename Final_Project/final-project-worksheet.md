@@ -51,6 +51,7 @@ Include the full list of features that you will implement as part of your site's
 - nav bar with links to my squarespace, gemini.com, and a link to open....
 - whole page "about" 
 - scrollspy (overview of timeline + gives user info as to where they are in the timeline)
+- button to return to the beginning of page
 
 
 
